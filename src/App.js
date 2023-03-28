@@ -11,6 +11,7 @@ export default function App() {
 
   return (
     <div className="App">
+          <h3>{t('namea.text')}</h3> 
         <button onClick={() => handleClick('eng')} >
           English
         </button>
@@ -23,11 +24,8 @@ export default function App() {
         <button onClick={() => handleClick('nemis')} >
           Nemis
         </button>
-      {/* <header className="App-header"> */}
-        {/* <p> */}
-          <h3>{t('namea.text')}</h3> 
-        {/* </p>
-      </header> */}
+     
+  
     </div>
   )
 }
